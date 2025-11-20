@@ -47,9 +47,6 @@ class RegisteredUserController extends Controller
         ]);
         $user = User::where('id', $user_id)->first();
         if($user->role == 'user'){
-//            event(new Registered($user));
-//            Auth::login($user);
-////            return redirect()->route('user.dashboard');
             return redirect()->route('login');
 
         }else{
