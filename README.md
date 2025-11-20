@@ -1,3 +1,37 @@
+
+
+Documentation
+
+Laravel version 12
+Default login credentials 
+
+-----ADMIN SIDE---
+Username or email -- admin@starlfinx.com
+Password ----- password
+
+1.Create N number of users and N number of admins 
+-you can assign the role of admin or user
+2.Only admin can create either user or admin after login.
+3.Dashboard can show the count of all users ans admins,active users,inactive users.
+
+----USER SIDE----
+1.You can register through mail with password [By default role is user]
+2.Redirect to user login check the profile.
+3.You can update your details and password also.
+
+Thank you
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
